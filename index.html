@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,315 +10,297 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
-<body class="page">
-    <!-- <header> -->
-        <div class="wrapper_fixed">
-            <nav>
-                <ul class="nav-list">
-                    <li class="nav-list__item"><a href="#">First Link</a></li>
-                    <li class="nav-list__item"><a href="#">Second Link</a></li>
-                    <li class="nav-list__item"><a href="#">Third Link</a></li>
-                    <ul>
-                        <li class="logo"><a href="#"><img src="/img/header/logo.svg" alt=""></a></li>
-                    </ul>
-                    <li class="nav-list__item"><a href="#">Fourth Link</a></li>
-                    <li class="nav-list__item"><a href="#">Fifth Link</a></li>
-                    <li class="nav-list__item"><a href="#">Sixth Link</a></li>      
+
+<body>
+    <div class="wrapper_fixed">
+        <div class="nav-mobile">
+            <div class="menu">
+                <a class="menu__link" href="#menu">
+                    <span></span>
+                </a>
+            </div>
+            <a href="#"><img src="/img/header/logo.svg" alt="" class="logo"></a></li>
+            <button type="button" class="search">
+                <img src="/img/header/search.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <div class="wrapper_fixed">
+        <nav class="nav-desktop">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#">First Link</a></li>
+                <li class="nav-list__item"><a href="#">Second Link</a></li>
+                <li class="nav-list__item"><a href="#">Third Link</a></li>
+                <ul>
+                    <li class="logo"><a href="#"><img src="/img/header/logo.svg" alt=""></a></li>
                 </ul>
-            </nav>  
-        </div>  
-        <header>
-            <div class="header">
-                <div class="header__img">
-                    <img src="/img/header/Safarisafari.svg" alt="header img">
-                </div>
-                <div class="wrapper_stripes">
-                    <div class="header__subscribe">
-                        <div class="header__title"><h1 class="title-h1">Heading</h1></div>
-                        <div class="header__text"><h3 class="text-h3">Let’s talk a little about what symptoms a slow computer can have.</h3></div>    
-                        <div class="header__form">
-                            <input type="text" placeholder="Name">
-                            <input type="email" placeholder="Email">
-                            <button type="button"><h3 class="button-text">Subscribe</h3></button>
-                        </div> 
-                        <div class="header__text"><h5 class="text-h5">No spam, notifications only about new products, updates and freebies.</h5></div>           
+                <li class="nav-list__item"><a href="#">Fourth Link</a></li>
+                <li class="nav-list__item"><a href="#">Fifth Link</a></li>
+                <li class="nav-list__item"><a href="#">Sixth Link</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="wrapper">
+        <header class="header _container">
+            <div class="header__img">
+                <img src="/img/header/Safarisafari.svg" alt="header img">
+            </div>
+            <div class="wrapper_stripes">
+                <div class="header__subscribe">
+                    <h1 class="header__title title-h1">Heading</h1>
+                    <div class="header__text text-h3">Let’s talk a little about what symptoms a slow computer can have.
                     </div>
+                    <form action class="header__form">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <button type="button">
+                            <h3 class="button-text">Subscribe</h3>
+                        </button>
+                    </form>
+                    <div class="header__text text-h5">No spam, notifications only about new products, updates and
+                        freebies.</div>
                 </div>
             </div>
-    </header>
-    <hr class="hr-line">
-    <main>
-        <div class="wrapper-about">
-            <div class="about">
+        </header>
+        <hr class="hr-line">
+        <main>
+            <section class="about _container">
                 <div class="about__icon">
                     <img src="./img/main/Graphics.svg" alt="">
                 </div>
-                <div class="about__text">
-                    <h3 class="text-h3">Over 92% of computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility and even when it is it almost always leaves broken Windows Registry keys behind it. Even if you have an anti-spyware tool your Windows Registry might be broken.</h3>
+                <div class="about__text text-h3">
+                    Over 92% of computers are infected with Adware and spyware. Such software is rarely accompanied by
+                    uninstall utility and even when it is it almost always leaves broken Windows Registry keys behind
+                    it. Even if you have an anti-spyware tool your Windows Registry might be broken.
                 </div>
-            </div>
-        </div>
-        <hr class="hr-line">
-        <div class="wrapper">
-            <div class="grid grid__features">
-                <div class="grid-item-left-1 feature">
+            </section>
+            <hr class="hr-line">
+            <section class="features _container">
+                <div class="features__list">
                     <div class="feature feature__block">
                         <img src="/img/main/features.svg" alt="" class="feature__icon">
-                        <div class="feature__title"><h3 class="title-h3">One line header</h3></div>
-                        <div class="feature_text"><h4 class="text-h4">Computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility.</h4></div>
+                        <h3 class="feature__title title-h3">One line header</h3>
+                        <div class="feature_text text-h4">Computers are infected with Adware and spyware. Such software
+                            is rarely accompanied by uninstall utility.</div>
                     </div>
-                </div>
-                <div class="grid-item-left-2 feature">
                     <div class="feature feature__block">
                         <img src="/img/main/features.svg" alt="" class="feature__icon">
-                        <div class="feature__title"><h3 class="title-h3">One line header</h3></div>
-                        <div class="feature_text"><h4 class="text-h4">Computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility.</h4></div>
+                        <h3 class="feature__title title-h3">One line header</h3>
+                        <div class="feature_text text-h4">Computers are infected with Adware and spyware. Such software
+                            is rarely accompanied by uninstall utility.</div>
                     </div>
-                </div>
-                <div class="grid-item-left-3 grid-feature">
                     <div class="feature feature__block">
                         <img src="/img/main/features.svg" alt="" class="feature__icon">
-                        <div class="feature__title"><h3 class="title-h3">One line header</h3></div>
-                        <div class="feature_text"><h4 class="text-h4">Computers are infected with Adware and spyware. Such software is rarely accompanied by uninstall utility.</h4></div>
+                        <h3 class="feature__title title-h3">One line header</h3>
+                        <div class="feature_text text-h4">Computers are infected with Adware and spyware. Such software
+                            is rarely accompanied by uninstall utility.</div>
                     </div>
                 </div>
-                <div class="grid-item-right feature">
-                    <div class="feature__img">
-                        <img src="/img/main/Image.svg" alt="">
-                    </div>
+                <div class="features__img">
+                    <img src="/img/main/Image.svg" alt="">
                 </div>
-            </div>        
-        </div>
-        <hr class="hr-line">
-        <div class="wrapper">
-            <div class="statistics">
+            </section>
+            <hr class="hr-line">
+            <section class="statistics _container">
                 <div class="statistics__img">
                     <img src="/img/main/Big.svg" alt="" class="chart">
                 </div>
-                <div class="grid grid__statistics-list">
-                    <div class="grid-item-block-1 statistic">
-                        <div class="statistic statistic__block">
+                <div class="statistic__list">
+                    <div class="grid-item-block-1">
+                        <div class="statistic__inner statistic__block">
                             <img src="/img/main/Oval1.svg" alt="" class="statistic__point">
-                            <div class="statistic statistic__box">
-                                <div class="statistic__title"><h2 class="title-h2">28%</h2></div>
-                                <div class="statistic__text"><h4 class="text-h4">Downloads</h4></div>
+                            <div class="statistic__inner statistic__box">
+                                <h2 class="statistic__title title-h2">28%</h2>
+                                <div class="statistic__text text-h4">Downloads</div>
                             </div>
                         </div>
                     </div>
-                    <div class="grid-item-block-2 statistic">
-                        <div class="statistic statistic__block">
+                    <div class="grid-item-block-2">
+                        <div class="statistic__inner statistic__block">
                             <img src="/img/main/Oval2.svg" alt="" class="statistic__point">
-                            <div class="statistic statistic__box">
-                                <div class="statistic__title"><h2 class="title-h2">37%</h2></div>
-                                <div class="statistic__text"><h4 class="text-h4">Subscribers</h4></div>
-                            </div> 
+                            <div class="statistic__inner statistic__box">
+                                <h2 class="statistic__title title-h2">37%</h2>
+                                <div class="statistic__text text-h4">Subscribers</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="grid-item-block-3 statistic">
-                        <div class="statistic statistic__block">
+                    <div class="grid-item-block-3">
+                        <div class="statistic__inner statistic__block">
                             <img src="/img/main/Oval3.svg" alt="" class="statistic__point">
-                            <div class="statistic statistic__box">
-                                <div class="statistic__title"><h2 class="title-h2">22%</h2></div>
-                                <div class="statistic__text"><h4 class="text-h4">Users</h4></div>
-                            </div>    
+                            <div class="statistic__inner statistic__box">
+                                <h2 class="statistic__title title-h2">22%</h2>
+                                <div class="statistic__text text-h4">Users</div>
+                            </div>
                         </div>
                     </div>
-                    <div class="grid-item-block-4 statistic">
-                        <div class="statistic statistic__block">
+                    <div class="grid-item-block-4">
+                        <div class="statistic__inner statistic__block">
                             <img src="/img/main/Oval4.svg" alt="" class="statistic__point">
-                            <div class="statistic statistic__box">
-                                <div class="statistic__title"><h2 class="title-h2">13%</h2></div>
-                                <div class="statistic__text"><h4 class="text-h4">Products</h4></div>
+                            <div class="statistic__inner statistic__box">
+                                <h2 class="statistic__title title-h2">13%</h2>
+                                <div class="statistic__text text-h4">Products</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="grid-item-block-5 statistic">
-                    <div class="statistic statistic__block-right">  
-                        <div class="statistic__text-right"><h4 class="text-h4">The quality of today’s video game was not at all there when video game first conceptualized and played ever. During the formulative years, video games were created by using various interactive electronic devices with various display.</h4></div>
-                        <div class="statistic__text-small"><h5 class="text-h5">Video games were created by using various interactive electronic devices with various display.</h5></div>
-                    </div>
+                <div class="statistic__inner statistic__block-right">
+                    <h4 class="statistic__text-right text-h4">The quality of today’s video game was not at all there
+                        when video game first conceptualized and played ever. During the formulative years, video games
+                        were created by using various interactive electronic devices with various display.</h4>
+                    <div class="statistic__text-small text-h5">Video games were created by using various interactive
+                        electronic devices with various display.</div>
                 </div>
-            </div>
-        </div>
-        <hr class="hr-line">
-        <div class="wrapper">
-            <div class="devices">
+            </section>
+            <hr class="hr-line">
+            <section class="devices _container">
                 <div class="devices__block-text">
-                    <div class="device__title"><h1 class="title-h1">Short heading</h1></div>
-                    <div class="device__text"><h3 class="text-h3">Each and every one of us has that moment when we are suddenly stunned when we come face to face with the enormity of the universe.</h3></div>
+                    <h1 class="device__title title-h1">Short heading</h1>
+                    <div class="device__text text-h3">Each and every one of us has that moment when we are suddenly
+                        stunned when we come face to face with the enormity of the universe.</div>
                 </div>
                 <div class="devices__list">
                     <div class="devices__item">
                         <img src="/img/main/icon_device.svg" alt="" class="device__img">
-                        <div class="device__title"><h5 class="title-h5">Feature One</h5></div>
+                        <h5 class="device__title title-h5">Feature One</h5>
                     </div>
                     <div class="devices__item">
                         <img src="/img/main/icon_device.svg" alt="" class="device__img">
-                        <div class="device__title"><h5 class="title-h5">Feature Two</h5></div>
+                        <h5 class="device__title title-h5">Feature Two</h5>
                     </div>
                     <div class="devices__item">
                         <img src="/img/main/icon_device.svg" alt="" class="device__img">
-                        <div class="device__title"><h5 class="title-h5">Feature Three</h5></div>
+                        <h5 class="device__title title-h5">Feature Three</h5>
                     </div>
                     <div class="devices__item">
                         <img src="/img/main/icon_device.svg" alt="" class="device__img">
-                        <div class="device__title"><h5 class="title-h5">Feature Four</h5></div>
+                        <h5 class="device__title title-h5">Feature Four</h5>
                     </div>
                 </div>
                 <img src="/img/main/mockup_device.svg" alt="" class="devices__block-img">
-            </div>
-        </div>
-        <hr class="hr-line">
-        <div class="wrapper">
-            <div class="review">
+            </section>
+            <hr class="hr-line">
+            <section class="review _container">
                 <img src="/img/main/twitter_review.svg" alt="" class="review__img">
-                <div class="review__slider">
+                <div class="review__inner">
                     <div class="review__button"><img src="/img/main/button_left_review.svg" alt="left"></div>
-                    <div class="review__text">
-                        <h3 class="text-h3">There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun. The truth is the universe is a constantly changing, moving, some would say “living” thing because you just never know what you are going to see on any given night of stargazing.</h3>
+                    <div class="review__slider">
+                        <div class="review__text text-h3">
+                            There is a lot of exciting stuff going on in the stars above us that make astronomy so much
+                            fun. The truth is the universe is a constantly changing, moving, some would say “living”
+                            thing because you just never know what you are going to see on any given night of
+                            stargazing.
+                        </div>
+                        <img src="/img/main/google_review.svg" alt="" class="review__brand">
+                        <h4 class="review__name title-h4">Charlie Mendoza</h4>
+                        <div class="review__position text-h4">Product Designer</div>
+                        <a href="" class="review__more">Learn more</a>
                     </div>
                     <img src="/img/main/button_right_review.svg" alt="right" class="review__button">
                 </div>
-                <img src="/img/main/google_review.svg" alt="" class="review__brand">
-                <div class="review__name">
-                    <h4 class="title-h4">Charlie Mendoza</h4>
+                <div class="review__dots">
+                    <span></span>
+                    <span class="activ-dot"></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="review__position">
-                    <h4 class="text-h4">Product Designer</h4>
-                </div>
-                <a href="" class="review__more">Learn more</a>
-            </div>
-        </div>
-        <hr class="hr-line">
-        <div class="wrapper">
-            <div class="pricing">
+            </section>
+            <hr class="hr-line">
+            <section class="pricing _container">
                 <div class="pricing__block">
-                   <div class="pricing__subject">
-                       <h4 class="title-h4">Start</h4>
-                    </div>
-                   <div class="pricing__value">
-                       <h1 class="title-h1">Free</h1>
-                    </div>
-                   <div class="pricing__benefit">
-                       <h4 class="text-h4">Long Feature One</h4>
-                   </div>
-                   <div class="pricing__benefit">
-                       <h4 class="text-h4">Feature Two</h4>
-                    </div>
-                    <div class="pricing__benefit">
-                        <h4 class="text-h4">Long Feature Three</h4>
-                    </div>
+                    <h4 class="pricing__subject title-h4">Start</h4>
+                    <h1 class="pricing__value title-h1">Free</h1>
+                    <div class="pricing__benefit text-h4">Long Feature One</div>
+                    <div class="pricing__benefit text-h4">Feature Two</div>
+                    <div class="pricing__benefit text-h4">Long Feature Three</div>
                     <button type="button" class="button_white">
                         <div class="pricing__button">
                             <h3 class="button-text">Button</h3>
                             <img src="/img/main/pricing_btn_white.svg" alt="">
                         </div>
                     </button>
-                    <div class="pricing__text">
-                        <h5 class="text-h5">Two line long feature example with text description for your project</h5>
-                    </div>
+                    <div class="pricing__text text-h5">Two line long feature example with text description for your
+                        project</div>
                 </div>
                 <div class="pricing__block pricing__block_green">
                     <img src="/img/main/pricing_popular.svg" alt="" class="pricing__img">
-                    <div class="pricing__subject">
-                        <h4 class="title-h4">Pro</h4>
-                     </div>
+                    <h4 class="pricing__subject title-h4">Pro</h4>
                     <div class="pricing__value">
-                        <h1 class="title-h1">$38</h1><span class="pricing__fraction"><h4 class="text-h4">/ mo</h4></span>
-                     </div>
-                    <div class="pricing__benefit">
-                        <h4 class="text-h4">Long Feature One</h4>
+                        <h1 class="title-h1">$38</h1><span class="pricing__fraction text-h4">/ mo</span>
                     </div>
-                    <div class="pricing__benefit">
-                        <h4 class="text-h4">Feature Two</h4>
-                     </div>
-                     <div class="pricing__benefit">
-                         <h4 class="text-h4">Long Feature Three</h4>
-                     </div>
-                     <button type="button" class="button_green">
+                    <div class="pricing__benefit text-h4">Long Feature One</div>
+                    <div class="pricing__benefit text-h4">Feature Two</div>
+                    <div class="pricing__benefit text-h4">Long Feature Three</div>
+                    <button type="button" class="button_green">
                         <div class="pricing__button">
                             <h3 class="button-text">Button</h3>
                             <img src="/img/main/pricing_btn_green.svg" alt="">
                         </div>
                     </button>
-                     <div class="pricing__text">
-                         <h5 class="text-h5">Two line long feature example with text description for your project</h5>
-                     </div>
-                 </div>
-                 <div class="pricing__block">
-                    <div class="pricing__subject">
-                        <h4 class="title-h4">Business</h4>
-                     </div>
+                    <div class="pricing__text text-h5">Two line long feature example with text description for your
+                        project</div>
+                </div>
+                <div class="pricing__block">
+                    <h4 class="pricing__subject title-h4">Business</h4>
                     <div class="pricing__value">
-                        <h1 class="title-h1">$78</h1><span class="pricing__fraction"><h4 class="text-h4">/ mo</h4></span>
-                     </div>
-                    <div class="pricing__benefit">
-                        <h4 class="text-h4">Long Feature One</h4>
+                        <h1 class="title-h1">$78</h1><span class="pricing__fraction text-h4">/ mo</span>
                     </div>
-                    <div class="pricing__benefit">
-                        <h4 class="text-h4">Feature Two</h4>
-                     </div>
-                     <div class="pricing__benefit">
-                         <h4 class="text-h4">Long Feature Three</h4>
-                     </div>
-                     <button type="button" class="button_white">
+                    <div class="pricing__benefit text-h4">Long Feature One</div>
+                    <div class="pricing__benefit text-h4">Feature Two</div>
+                    <div class="pricing__benefit text-h4">Long Feature Three</div>
+                    <button type="button" class="button_white">
                         <div class="pricing__button">
                             <h3 class="button-text">Button</h3>
                             <img src="/img/main/pricing_btn_white.svg" alt="">
                         </div>
                     </button>
-                     <div class="pricing__text">
-                         <h5 class="text-h5">Two line long feature example with text description for your project</h5>
-                     </div>
-                 </div>
-            </div>
-        </div>
+                    <div class="pricing__text text-h5">Two line long feature example with text description for your
+                        project</div>
+                </div>
+            </section>
+            <hr class="hr-line">
+            <section class="subscribe _container">
+                <div class="subscribe__box">
+                    <div class="subscribe__block-text">
+                        <h3 class="subscribe__title title-h3">Heading</h3>
+                        <div class="subscribe__text text-h4">In the history of modern astronomy, there is probably no
+                            one greater leap forward than the building and launch.</div>
+                    </div>
+                    <div class="subscribe__block-form">
+                        <input type="email" placeholder="Email">
+                        <button type="button">
+                            <h3 class="button-text">Subscribe</h3>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
         <hr class="hr-line">
-        <div class="wrapper">
-            <div class="subscribe">
-                <div class="subscribe__block-text">
-                    <div class="subscribe__title">
-                        <h3 class="title-h3">Heading</h3>
-                    </div>
-                    <div class="subscribe__text">
-                        <h4 class="text-h4">In the history of modern astronomy, there is probably no one greater leap forward than the building and launch.</h4>
-                    </div>
-                </div>
-                <div class="subscribe__block-form">
-                    <input type="email" placeholder="Email">
-                    <button type="button"><h3 class="button-text">Subscribe</h3></button>
-                </div>
-            </div>
-        </div>
-    </main>
-    <hr class="hr-line">
-    <footer>
-        <div class="wrapper">
-            <div class="footer">
-                <div class="footer__box">
-                    <a href="#"><img src="/img/footer/logo.svg" alt="" class="logo"></a>
-                    <ul class="nav-list">
-                        <li class="nav-list__item"><a href="#">First Link</a></li>
-                        <li class="nav-list__item"><a href="#">Second Link</a></li>
-                        <li class="nav-list__item"><a href="#">Third Link</a></li>
-                        <li class="nav-list__item"><a href="#">Fourth Link</a></li>
-                        <li class="nav-list__item"><a href="#">Fifth Link</a></li>
-                        <li class="nav-list__item"><a href="#">Sixth Link</a></li>      
-                    </ul>
-                    <div class="footer__socials">
-                        <a href="#"><img src="/img/footer/socials__Facebook.svg" alt="" class="footer__icon facebook"></a>
-                        <a href="#"><img src="/img/footer/socials__instagram.svg" alt="" class="footer__icon"></a>
-                        <a href="#"><img src="/img/footer/socials__twitter.svg" alt="" class="footer__icon"></a>
-                        <a href="#"><img src="/img/footer/socials__YouTube.svg" alt="" class="footer__icon youtube"></a>
-                    </div>
-                </div>
-                <div class="footer__copyright">
-                    <h5 class="text-h5">© Copyright 2020 Pixsellz - Premium UI Goods for Designers</h5>
+        <footer class="footer _container">
+            <div class="footer__box">
+                <a href="#"><img src="/img/footer/logo.svg" alt="" class="logo"></a>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="#">First Link</a></li>
+                    <li class="nav-list__item"><a href="#">Second Link</a></li>
+                    <li class="nav-list__item"><a href="#">Third Link</a></li>
+                    <li class="nav-list__item"><a href="#">Fourth Link</a></li>
+                    <li class="nav-list__item"><a href="#">Fifth Link</a></li>
+                </ul>
+                <div class="footer__socials-desktop">
+                    <a href="#"><img src="/img/footer/socials__Facebook.svg" alt="" class="footer__icon facebook"></a>
+                    <a href="#"><img src="/img/footer/socials__instagram.svg" alt="" class="footer__icon"></a>
+                    <a href="#"><img src="/img/footer/socials__twitter.svg" alt="" class="footer__icon"></a>
+                    <a href="#"><img src="/img/footer/socials__YouTube.svg" alt="" class="footer__icon youtube"></a>
                 </div>
             </div>
-        </div>
-    </footer>
+            <div class="footer__copyright text-h5">© Copyright 2020 Pixsellz - Premium UI Goods for Designers</div>
+            <div class="footer__socials-mobile">
+                <a href="#"><img src="/img/footer/socials__Facebook.svg" alt="" class="footer__icon facebook"></a>
+                <a href="#"><img src="/img/footer/socials__instagram.svg" alt="" class="footer__icon"></a>
+                <a href="#"><img src="/img/footer/socials__twitter.svg" alt="" class="footer__icon"></a>
+                <a href="#"><img src="/img/footer/socials__YouTube.svg" alt="" class="footer__icon youtube"></a>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
