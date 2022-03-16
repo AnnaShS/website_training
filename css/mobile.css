@@ -120,7 +120,7 @@
   }
 
   .header__text {
-    margin-bottom: 3rem;
+    margin-bottom: 30px;
   }
 
   .header__form {
@@ -143,39 +143,12 @@
   /* Блок about */
 
   .about__icon {
-    margin-top: 4rem;
+    margin-top: 40px;
   }
 
   .about__text {
     min-width: 290px;
-    margin-bottom: 4.4rem;
-  }
-
-  /* --------------------------- */
-
-  /* Блок statistics */
-
-  .statistics__img {
-    margin: 40px auto;
-    padding: 0 15px;
-  }
-
-  .statistic__list {
-    grid-gap: 30px 0;
-    margin: 0 auto;
-  }
-
-  .statistic__block {
-    margin-right: 30px;
-  }
-
-  .grid-item-block-3 > .statistic__block,
-  .grid-item-block-4 > .statistic__block {
-    margin-right: 0;
-  }
-
-  .statistic__block-right {
-    margin: 30px auto 40px auto;
+    margin-bottom: 44px;
   }
 
   /* --------------------------- */
@@ -349,7 +322,7 @@
   }
 
   .nav-list__item {
-    margin: 1rem 1.5rem 1rem 1.5rem;
+    margin: 10px 15px;
   }
 
   .footer__copyright {
@@ -392,6 +365,30 @@
   /* --------------------------- */
 }
 
+@media screen and (max-width: 1127px) {
+  /* Блок statistics */
+
+  .statistics__img {
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  .statistic__list {
+    grid-gap: 30px 30px;
+    margin: 0 auto;
+  }
+
+  .statistic__block {
+    margin: 0 auto;
+  }
+
+  .statistic__block-right {
+    margin: 30px auto 40px auto;
+  }
+
+  /* --------------------------- */
+}
+
 @media only screen and (min-width: 615px) and (max-width: 1108px) {
   /* Блок header */
 
@@ -414,3 +411,5 @@
 
   /* --------------------------- */
 }
+
+
