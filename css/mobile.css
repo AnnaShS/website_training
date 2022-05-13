@@ -180,19 +180,16 @@
 
   /* Блок review */
 
-  .review__slider {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .review__inner {
+    width: 100%;
   }
+  
 
   .review__button {
     display: none;
   }
 
   .review__text {
-    max-width: 730px;
     margin: 0 auto;
     text-align: center;
     margin: 10px 0 40px 0;
@@ -224,7 +221,7 @@
     border-radius: 50%;
   }
 
-  .review__dots .activ-dot {
+  .review__dots .active-dot {
     background: #24afb5;
   }
 

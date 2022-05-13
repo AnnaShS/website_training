@@ -606,7 +606,7 @@ main {
 .review {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   background-color: #ffffff;
 }
@@ -624,9 +624,27 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 100%;
+  max-width: 730px;
 }
 
 .review__slider {
+  overflow: hidden;
+  -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.review__line {
+  display: flex;
+  /* min-width: 100%;
+  max-width: 730px; */
+  transition: all ease-in-out 1s;
+}
+
+.review__item {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -648,8 +666,8 @@ main {
 }
 
 .review__button > img {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 .review__button:hover {
@@ -658,10 +676,15 @@ main {
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
 
+.review__button:disabled {
+  background: #f8f7f7;
+  cursor: default;
+}
+
 .review__text {
   max-width: 730px;
+  margin: 20px 0;
   text-align: center;
-  margin: 20px 50px;
 }
 
 .review__brand {
@@ -695,8 +718,27 @@ main {
   color: #26a9ad;
 }
 
-.review__dots {
+/* .review__dots {
   display: none;
+} */
+
+.review__dots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 57px;
+}
+
+.review__dots span {
+  height: 8px;
+  width: 8px;
+  margin: 0 3px;
+  background: #dbdbdb;
+  border-radius: 50%;
+  transition: all ease-in-out 1s;
+}
+
+.review__dots .active-dot {
+  background: #24afb5;
 }
 
 /* --------------------------- */
